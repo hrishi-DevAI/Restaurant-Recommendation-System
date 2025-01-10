@@ -124,16 +124,24 @@ The following density plot shows the distribution of restaurant locations in Las
 ### 1. **Top Recommended Restaurants**
 The system provides a personalized recommendation list. Example:
 ![Sample ](./images/location_based_recommendation.png)
+
 Here is the result for user 1
 ![User 1 recommendation ](./images/map_plot)
+
+Here is the result for user 2
+![User 2 recommendation ](./images/user_2_map_plot)
+
+Here is the result for user 3
+![User 2 recommendation ](./images/user_3_map_plot)
 ---
 
 ### 2. **Interactive Map**
 The system generates an interactive map with:
 - User's location (blue marker).
 - Recommended restaurants (green markers).
+- Now This final segment of the model contains both location based and review based recommending system.
 
-![Map Screenshot](./images/map_result.png)
+![Map Screenshot](./images/interactive map.png)
 
 ---
 
@@ -141,3 +149,17 @@ The system generates an interactive map with:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-repo-name.git
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the Flask application:
+   ```bash
+   python app.py
+
+You can enter your location, star preferences, and review count to get top restaurant recommendations with an interactive map.
+
+## Contribution
+Contributions are welcome! Please feel free to submit a Pull Request.
+
