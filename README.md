@@ -141,7 +141,7 @@ The system generates an interactive map with:
 - Recommended restaurants (green markers).
 - Now This final segment of the model contains both location based and review based recommending system.
 
-![Map Screenshot](./images/interactive map.png)
+![User 2 recommendation ](./images/interactive_map.png)
 
 ---
 
