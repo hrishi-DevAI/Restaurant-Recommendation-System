@@ -156,7 +156,7 @@ The system generates an interactive map with:
 
 3. Run the Flask application:
    ```bash
-   python app.py
+   python application.py
 
 You can enter your location, star preferences, and review count to get top restaurant recommendations with an interactive map.
 
